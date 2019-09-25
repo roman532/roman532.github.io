@@ -1,0 +1,38 @@
+h1{
+    color: orange;
+}
+
+.lists{
+    color: deeppink;
+}
+#header{
+    color: lightseagreen
+}
+p span{
+    color: crimson
+}
+h2 ,h3, h4{
+    color: green;
+}
+p{
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace
+}
+span {
+    color: red;
+}
+.letter { 
+    color: red;
+    font-size: 50px;
+    font-family: serif;
+    position: relative;
+    top: 5px;
+       }
+footer{
+    font-size: 18px;
+    font-weight: bold;
+}
+.container{
+    font-size: 18px;
+    font-weight: bold;
+}
