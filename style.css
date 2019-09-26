@@ -1,38 +1,103 @@
-h1{
-    color: orange;
+
+}
+@font-face {
+  font-family: "loto";
+  src: url("fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: "loto";
+    src: url("fonts/Lato-bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "loto";
+    src: url("fonts/Lato-light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+        font-family: "loto";
+        src: url("fonts/Lato-italic.ttf") format("truetype");
+        font-weight: normal;
+        font-style: italic;
+    }
+h1 {
+  color: orange;
 }
 
-.lists{
-    color: deeppink;
+.lists {
+  color: deeppink;
 }
-#header{
-    color: lightseagreen
+#header {
+  color: lightseagreen;
 }
-p span{
-    color: crimson
+p span {
+  color: crimson;
 }
-h2 ,h3, h4{
-    color: green;
+h2,
+h3,
+h4 {
+  color: green;
 }
-p{
-    color: darkblue;
-    font-family: 'Courier New', Courier, monospace
+p {
+  color: darkblue;
+  font-family: "Courier New", Courier, monospace;
 }
 span {
-    color: red;
+  color: red;
 }
-.letter { 
-    color: red;
-    font-size: 50px;
-    font-family: serif;
-    position: relative;
-    top: 5px;
-       }
-footer{
-    font-size: 18px;
-    font-weight: bold;
+.letter {
+  color: red;
+  font-size: 50px;
+  font-family: serif;
+  position: relative;
+  top: 5px;
 }
-.container{
-    font-size: 18px;
+footer {
+  font-size: 18px;
+  font-weight: bold;
+}
+.container {
+  font-size: 18px;
+  font-weight: bold;
+}
+.list {
+  list-style: none;
+}
+.list-item:nth-child(2) {
+  text-decoration: underline;
+}
+.list-item-submenu-block {
+  font-family: "Robo", sans-serif;
+}
+.text{
+    font-family: "Lato" , "Roboto", sans-serif;
+    font-style: italic;
+    color: darkgreen;
+}
+
+.text-link{
     font-weight: bold;
+
+}
+.blok{
+    width: 200px;
+    height: 200px;
+    background-color: green;/*--фон url:(img.jpg)--*/ 
+    border: 5px solid red;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    text-align: center;
+    
+    padding: 10px 5px 7px 15px; /*--можно такой вариант--*/
+    margin: 50px auto; /*-- выравнивает по центру--*/
+    color: aliceblue;
+    overflow:scroll; /*--прокрутка--*/
+    box-sizing: border-box; /*--не добавляет пединги--*/
+    border-radius: 5px 20px 35px 78px;
 }
